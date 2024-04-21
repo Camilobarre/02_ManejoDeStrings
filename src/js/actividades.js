@@ -4,7 +4,6 @@ let num1 = 5;
 let num2 = 2;
 const suma = num1 + num2;
 console.info(suma)
-
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 2");
@@ -213,43 +212,67 @@ console.groupEnd();
 
 console.groupCollapsed("Ejercicio 35");
 // Ejercicio 35
-let otraOracionMas = "Esto es una oración de ejemplo";
-let arrayPalabras = otraOracionMas.split(" ");
+let otraOracionMas = "Esto es una oración de ejemplo"
+let arrayPalabras = otraOracionMas.split(" ")
 console.info(arrayPalabras);
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 36");
 // Ejercicio 36
+let cadenaEjercicio36 = "Javascript"
+let mayusculas36 = cadenaEjercicio36.toUpperCase()
+console.log(mayusculas36)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 37");
 // Ejercicio 37
+let cadenaEjercicio37 = "EJEMPLO"
+let minusculas37 = cadenaEjercicio36.toLowerCase()
+console.log(minusculas37)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 38");
 // Ejercicio 38
+let numeroEjercicio38 = 27
+console.log(typeof(numeroEjercicio38))
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 39");
 // Ejercicio 39
+let variableEjercicio39 = true
+console.log(typeof(variableEjercicio39))
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 40");
 // Ejercicio 40
+let arregloEjercicio40 = [1, 2, 3, 4, 5]
+console.log(arregloEjercicio40.length)
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 41");
 // Ejercicio 41
+let objetoEjercicio41 = {
+  propiedad1: "Hola",
+  propiedad2: "Mundo",
+  propiedad3: "Como estan?"
+}
+console.log(objetoEjercicio41.propiedad2); 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 42");
 // Ejercicio 42
+let nuloEjercicio42 = null
+console.log(typeof(nuloEjercicio42)) 
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 43");
 // Ejercicio 43
+let indefinidoEjercicio43 = undefined
+console.log(typeof(indefinidoEjercicio43))
 console.groupEnd();
 
 console.groupCollapsed("Ejercicio 44");
 // Ejercicio 44
+let decimalEjercicio44 = 3.1416;
+console.log(typeof(decimalEjercicio44));
 console.groupEnd();
